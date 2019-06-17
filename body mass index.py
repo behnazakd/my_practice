@@ -1,0 +1,6 @@
+mass = input("enter your mass in kg Plz:\n")
+height = input("plz enter your height in m plz :\n")
+new_mass = float(mass)
+new_height = float(height)
+body_mass_index = new_mass/(new_height*new_height)
+print(body_mass_index)

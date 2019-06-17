@@ -1,6 +1,0 @@
-mass =input("enter your mass in kg Plz :")
-height =input("enter your height in m Plz :")
-new_mass =float(mass)
-new_height =float(height)
-body_mass_index =mass\(height * height)
-print(body_mass_index)
