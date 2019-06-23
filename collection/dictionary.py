@@ -1,0 +1,10 @@
+d = {"singer": "The Smiths", "album": "The Smiths", "release": 1984, "title": "Heaven knows I'm miserable now", "lang": "EN"}
+print(d.get("album"))
+print(d.fromkeys("album"))
+print(len(d))
+print(str(d))
+print(type("singer"))
+d.copy()
+print(d)
+d.clear()
+print(d)
