@@ -2,8 +2,7 @@ import  time
 n=10000
 zeta=0
 i=1
-pi_real=3.14159265359
-t_start=time.time()
+pi_real=3.14159265359; t_start=time.time()
 for i in range(i, n+1):
     zeta=zeta+1/i**2
     pi_approximate = (zeta*6)**(0.5)
